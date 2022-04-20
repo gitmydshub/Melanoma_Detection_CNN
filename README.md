@@ -31,10 +31,9 @@ You are required to model build a CNN based model that can evaluate images and a
 The model is built using CNN, and to get best alpha score from both. Final model created with the help of Augmentor package, which is giving better accuracy.
 
 ## Conclusions
-- The class re-balancing helped in reducing overfititng of the data and thus the loss is being reduced But it reduced the Accuracy very low
 - Initially we tried without the ImageDataGenerator which created data to over fit at high ratio
 - Then we introduced dropout and ImageDataGenerator which reduced the over fit
-- At last we tried Batch Normalization and Augmentation which really helped in carry forward
+- At last we tried Batch Normalization and Augumentation which really helped in carry forward
 
 ## Technologies Used
 - pandas
